@@ -16,3 +16,6 @@ Find the best AMC theaters seat for optimal movie viewing experience.
 **theatre_types:** It will try to find shows and seats for only the theatre types you choose, types can be found in URLs.
 
 **chair_type_filter:** If you or anyone you know is disabled, you may remove the 'Companion' and 'Wheelchair' filters.
+
+-
+This bot is for personal use only, do not attempt to snatch off good seats to resell.

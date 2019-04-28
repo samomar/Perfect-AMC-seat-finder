@@ -2,6 +2,7 @@
 Find the best AMC theaters seat for optimal movie viewing experience.
 
 **Settings Explanation:**
+
 **Trim:**
   If you choose 50 percent trim, it will trim 50 percent of the seats from the sides evenly,
       Because the goal is to find seats in the middle/center of the theatre.

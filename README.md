@@ -17,5 +17,5 @@ Find the best AMC theaters seat for optimal movie viewing experience.
 
 **chair_type_filter:** If you or anyone you know is disabled, you may remove the 'Companion' and 'Wheelchair' filters.
 
--
+--
 This bot is for personal use only, do not attempt to snatch off good seats to resell.

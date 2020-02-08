@@ -100,9 +100,7 @@ def insert_row(c, *args):
 
 
 def find_str_in_list(str_to_compare, list_to_scan):
-    if isinstance(list_to_scan, (list, tuple)):
-        pass
-    else:
+    if not isinstance(list_to_scan, (list, tuple)):
         new_list_to_scan = list()
         new_list_to_scan.append(list_to_scan)
         list_to_scan = new_list_to_scan
@@ -117,8 +115,8 @@ def showtime_database(*args):
     try:
         create_tables(c)
         insert_row(c, *args)
-    finally:
         conn.commit()
+    finally:
         conn.close()
 
 
